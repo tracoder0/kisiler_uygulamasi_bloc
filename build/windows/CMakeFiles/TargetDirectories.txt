@@ -1,0 +1,10 @@
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/CMakeFiles/INSTALL.dir
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/CMakeFiles/ALL_BUILD.dir
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/CMakeFiles/ZERO_CHECK.dir
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/flutter/CMakeFiles/INSTALL.dir
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/runner/CMakeFiles/kisiler_uygulamasi.dir
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/runner/CMakeFiles/INSTALL.dir
+D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/runner/CMakeFiles/ALL_BUILD.dir

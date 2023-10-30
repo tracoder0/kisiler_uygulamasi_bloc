@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D5D9295E-F2E0-358B-82AC-1C539C56DD90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7B052467-0691-316A-BE11-42839CEA30D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

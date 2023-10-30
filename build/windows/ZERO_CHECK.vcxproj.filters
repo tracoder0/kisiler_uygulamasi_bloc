@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\build\windows\CMakeFiles\28f945d90114348127dffc0be37c28d9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D5D9295E-F2E0-358B-82AC-1C539C56DD90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

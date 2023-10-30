@@ -63,7 +63,9 @@ class _HomeState extends State<Home> {
                               context,
                               MaterialPageRoute(
                                   builder: (context) => Detail(user: us)))
-                          .then((value) => null);
+                          .then((value) {
+                        context.read<HomePageCubit>().getUsers();
+                      });
                     },
                     child: Card(
                       child: Padding(
@@ -98,7 +100,7 @@ class _HomeState extends State<Home> {
                                       onPressed: () {
                                         context
                                             .read<HomePageCubit>()
-                                            .userDelete(us.user_id);                                        
+                                            .userDelete(us.user_id);
                                       }),
                                 ));
                               },
@@ -124,7 +126,7 @@ class _HomeState extends State<Home> {
             Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const InsertPage()))
                 .then((value) {
-              print("Ana Sayfaya Dönüldü");
+              context.read<HomePageCubit>().getUsers();
             });
           },
           child: const Icon(Icons.add_card),

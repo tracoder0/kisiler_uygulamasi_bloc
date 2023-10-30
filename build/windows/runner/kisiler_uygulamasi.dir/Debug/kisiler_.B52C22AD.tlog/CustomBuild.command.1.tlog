@@ -1,0 +1,10 @@
+^D:\PROGRAMLAMA\DERSLER\MOBIL\FLUTTERBOOTCAMP\KISILER_UYGULAMASI_BLOC_SQL\WINDOWS\RUNNER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/windows -BD:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows --check-stamp-file D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,35 +1,53 @@
 import 'package:kisiler_uygulamasi/data/entities/user.dart';
+import 'package:kisiler_uygulamasi/sqflite/veriTabaniYardimisi.dart';
 
 class UserDaoRepository {
   Future<void> insertUser(String kisi_ad, String kisi_tel) async {
-    print("Kişi adı $kisi_ad, kişi telefonu $kisi_tel");
+    var db = await VeriTabaniYardimisi.veriTabaniErisim();
+    var yeniKisi = Map<String, dynamic>();
+    yeniKisi["kisi_ad"] = kisi_ad;
+    yeniKisi["kisi_tel"] = kisi_tel;
+    await db.insert("kisiler", yeniKisi);
   }
 
   Future<void> updateUser(int kisi_id, String kisi_ad, String kisi_tel) async {
-    print("$kisi_id'li Kişi adı $kisi_ad, kişi telefonu $kisi_tel");
+    var db = await VeriTabaniYardimisi.veriTabaniErisim();
+    var yeniKisi = Map<String, dynamic>();
+    yeniKisi["kisi_ad"] = kisi_ad;
+    yeniKisi["kisi_tel"] = kisi_tel;
+    await db
+        .update("kisiler", yeniKisi, where: "kisi_id=?", whereArgs: [kisi_id]);
   }
 
   Future<List<User>> ara(String aramaKelimesi) async {
-    var users = await getUsers();
-    print(users);
-    return users
-        .where((element) =>
-            element.user_ad.toLowerCase().contains("$aramaKelimesi"))
-        .toList();
+    var db = await VeriTabaniYardimisi.veriTabaniErisim();
+    List<Map<String, dynamic>> maps = await db.rawQuery(
+        "select * from kisiler where kisi_ad like '%$aramaKelimesi%'");
+    return List.generate(maps.length, (index) {
+      var satir = maps[index];
+      return User(
+          user_id: satir["kisi_id"],
+          user_ad: satir["kisi_ad"],
+          user_tel: satir["kisi_tel"]);
+    });
   }
 
-  Future<List<User>> userDelete(int userID) async {
-    var users = await getUsers();
-    users.removeWhere((element) => element.user_id == userID);
-    return users;
+  Future<void> userDelete(int userID) async {
+    var db = await VeriTabaniYardimisi.veriTabaniErisim();
+    db.delete("kisiler", where: "kisi_id=?", whereArgs: [userID]);
   }
 
   Future<List<User>> getUsers() async {
-    var users = <User>[];
-    users.add(User(user_id: 1, user_ad: "Cihat", user_tel: "123455"));
-    users.add(User(user_id: 2, user_ad: "Demet", user_tel: "2585222"));
-    users.add(User(user_id: 3, user_ad: "Ömer", user_tel: "6666666"));
-    users.add(User(user_id: 4, user_ad: "Meryem", user_tel: "7777777"));
-    return users;
+    var db = await VeriTabaniYardimisi.veriTabaniErisim();
+    List<Map<String, dynamic>> maps =
+        await db.rawQuery("select * from kisiler");
+
+    return List.generate(maps.length, (index) {
+      var satir = maps[index];
+      return User(
+          user_id: satir["kisi_id"],
+          user_ad: satir["kisi_ad"],
+          user_tel: satir["kisi_tel"]);
+    });
   }
 }

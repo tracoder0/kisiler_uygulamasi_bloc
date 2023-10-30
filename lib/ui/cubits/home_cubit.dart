@@ -12,8 +12,8 @@ class HomePageCubit extends Cubit<List<User>> {
   }
 
   Future<void> userDelete(int userID) async {
-    var users = await urepo.userDelete(userID);
-    emit(users);
+    await urepo.userDelete(userID);
+    await getUsers();
   }
 
   Future<void> getUsers() async {

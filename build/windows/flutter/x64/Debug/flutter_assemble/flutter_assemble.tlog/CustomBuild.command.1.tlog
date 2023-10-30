@@ -1,0 +1,28 @@
+^D:\PROGRAMLAMA\DERSLER\MOBIL\FLUTTERBOOTCAMP\KISILER_UYGULAMASI_BLOC_SQL\BUILD\WINDOWS\CMAKEFILES\22007D5373DA39299EB49E3602F1AB94\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\Programlama\flutter PROJECT_DIR=D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql FLUTTER_ROOT=D:\Programlama\flutter FLUTTER_EPHEMERAL_DIR=D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\windows\flutter\ephemeral PROJECT_DIR=D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql FLUTTER_TARGET=D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9iMjAxODNlMDQwOTYwOTRiY2MzN2Q5Y2RlMmE0Yjk2ZjVjYzY4NGNmLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\.dart_tool\package_config.json D:/Programlama/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMLAMA\DERSLER\MOBIL\FLUTTERBOOTCAMP\KISILER_UYGULAMASI_BLOC_SQL\BUILD\WINDOWS\CMAKEFILES\DBE6D6535F9C6A2C303F94F429EC9859\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROGRAMLAMA\DERSLER\MOBIL\FLUTTERBOOTCAMP\KISILER_UYGULAMASI_BLOC_SQL\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/windows -BD:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows --check-stamp-file D:/Programlama/Dersler/Mobil/flutterbootcamp/kisiler_uygulamasi_bloc_sql/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

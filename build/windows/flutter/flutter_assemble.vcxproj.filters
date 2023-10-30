@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\build\windows\CMakeFiles\22007d5373da39299eb49e3602f1ab94\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\build\windows\CMakeFiles\dbe6d6535f9c6a2c303f94f429ec9859\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Programlama\Dersler\Mobil\flutterbootcamp\kisiler_uygulamasi_bloc_sql\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D5D9295E-F2E0-358B-82AC-1C539C56DD90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
